@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body
+{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    
+    height: 50%;
+    width: 100%;
+    background-color:chartreuse;
+    white-space: nowrap;
+    overflow: hidden;
+    
+}
+#main .container
+{   
+    height: 100%;
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    padding-left: 4px;
+     margin-left: 10px;
+    animation: slide 10s linear  infinite forwards ;
+    margin-top: 10px;
+}
+#main .container img
+{
+    height: 90%;
+    width: 20%;
+    background-position: center;
+    object-fit: cover;
+    padding-left: 10px;
+    
+}
+
+
+@keyframes slide {
+    from
+    {
+        transform: translate(0);
+    }
+    to{
+        transform: translate( calc(-100% - 18px) );
+    }
+    
+}

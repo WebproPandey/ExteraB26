@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background:linear-gradient(blue,cyan)
+
+}
+#card{
+    height: 500px;
+    width: 400px;
+    border-radius: 8px;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding: 30px 50px;
+    margin: 30px 50px;
+    box-shadow:  5px 5px  15px rgb(0, 0, 0);
+    /* mix-blend-mode: difference; */
+}
+img{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+img:hover{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    transition: 1.5s;
+}
+img:hover
+h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+p{
+    font-size:20px;
+    font-weight: 500;
+    color:black;
+}
+ 
+button{
+     padding: 12px 8px;
+    font-size: 20px;
+    border-radius: 5px;
+    background: rgb(13, 216, 125) ;
+    color: #fff;
+    transition: 1.5;
+     border: none;
+     box-shadow:  5px 5px 8px  rgb(13, 216, 125);
+}
+button:hover{
+   font-size: 25px;
+   margin: 12px 10px; 
+}
